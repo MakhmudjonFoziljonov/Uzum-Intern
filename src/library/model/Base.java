@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 public class Base {
-    private String  id = String.valueOf(UUID.randomUUID());
+    private String id = String.valueOf(UUID.randomUUID());
     private LocalDateTime createdDate = LocalDateTime.now();
     private Boolean visible = Boolean.TRUE;
 
@@ -12,17 +12,17 @@ public class Base {
     public Base() {
     }
 
-    public Base(String  id, LocalDateTime createdDate, Boolean visible) {
+    public Base(String id, LocalDateTime createdDate, Boolean visible) {
         this.id = id;
         this.createdDate = createdDate;
         this.visible = visible;
     }
 
-    public String  getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(String  id) {
+    public void setId(String id) {
         this.id = id;
     }
 
